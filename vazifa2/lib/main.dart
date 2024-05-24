@@ -30,7 +30,7 @@ class ComputationScreen extends StatelessWidget {
   }
 
   int heavyComputation() {
-    int sum = 10000000000 * (10000000000 + 1) ~/ 2 - 10000000000;
+    int sum = 10000000000 * (10000000000 - 1) ~/ 2;
     return sum;
   }
 }
